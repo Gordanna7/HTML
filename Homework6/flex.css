@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}   
+
+.bigbox{
+    width: 1000px;
+    height: 700px;
+    background-color: palevioletred;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: palegreen;
+    padding: 10px;
+    margin: 15px 15px 15px 15px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    color: rgb(218, 25, 153);  
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.aside{
+    background-color: aquamarine;
+    width: 300px;
+    height: 500px;  
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(218, 25, 153);
+  
+}
+
+.article{
+    background-color: blanchedalmond;
+    width: 700px;
+    height: 500px;
+    margin-right: 15px;
+    font-size: 40px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    font-weight: bold;  
+   
+}
+
+.boxes-inside{
+    width: 150px;
+    height: 150px;
+    background-color: palevioletred;
+    margin-bottom: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.art{
+    position: absolute;
+    margin: 150px;   
+    color: rgb(218, 25, 153); 
+}
+
+
+
